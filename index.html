@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/fontawesome-icons/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome-icons/css/fontawesome.min.css">
+  </head>
+  <body>
+    <!-- Login Form Tailwind Css-->
+    <section class=" bg-gradient-to-r from-red-500 to-red-900 min-h-screen flex items-center justify-center">
+       <div class=" bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5">
+          <!--login form-->  
+          <div class="sm:w-1/2 px-8">
+             <h2 class=" font-bold text-2xl">Login</h2>
+             <p class=" text-sm mt-1">Easily Login to your account, if you are existing member.</p>
+             <form action="" class="flex flex-col gap-4">
+                  <div class=" relative">
+                       <input type="text" name="email" class=" p-2 mt-6 w-full rounded-xl border" placeholder="Enter Your Email">
+                       <input type="password" name="email" class=" p-2 mt-6 w-full rounded-xl border" placeholder="Enter Your Password">
+                       <i class="fa-sharp fa-solid fa-lock absolute top-1/2  translate-y-11 right-4 text-gray-400"></i>
+                  </div>  
+                  <button class=" bg-blue-700 text-white py-2 rounded-full hover:bg-blue-900">LOGIN</button>
+                  <button class=" bg-red-800 text-white py-2 rounded-full text-sm hover:bg-red-900"> Sign in with Google</button>
+                  <div class="  text-xs">
+                     <a href="#">Forget Your Password ?</a> 
+                  </div> 
+             </form>
+             <div class=" mt-8 grid grid-cols-3 items-center text-gray-500">
+               <hr class="border-gray-500">
+                 <p class=" text-center">OR</p>
+               <hr class="border-gray-500">   
+             </div>
+             <div class=" text-sm flex items-center justify-between mt-2">
+               <p>Register Your Account Here</p>
+               <button class=" py-2 px-5 bg-green-700 border rounded-xl text-white hover:bg-green-900">Register</button>
+             </div>
+          </div>
+          <!--image form-->
+          <div class="w-1/2 sm:block hidden"> 
+             <img  src="assets/tech.jpg" alt="" class=" rounded-2xl">    
+          </div>
+       </div>
+    </section>
+    <script src="" async defer></script>
+  </body>
+</html>
